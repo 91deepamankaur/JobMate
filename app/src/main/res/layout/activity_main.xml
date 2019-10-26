@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bac"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="103dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:background="#2439A7"
+        android:src="@drawable/logon"></ImageView>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text="EASILY APPLY AND GET IT"
+        android:textColor="#79DB7D"
+        android:textColorLink="#7FCF82"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_centerInParent="true"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="0dp"
+        android:text="Jobmate is application which connects the job finders and job providers."
+        android:textColor="#49D3C6"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_centerInParent="true"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="Job finders can easily search the job according to their requirements and apply for it from here.Lets start"
+        android:textColor="#FBF8FC"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/t3"
+        android:text="CONTINUE" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt1"
+        android:layout_centerInParent="true"
+        android:text="Job providers can offer their jobs here and easily find correct or best person for vacancy.Lets start."
+        android:textColor="#FDFCFD"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/t4"
+        android:text="CONTINUE" />
+
+</RelativeLayout>

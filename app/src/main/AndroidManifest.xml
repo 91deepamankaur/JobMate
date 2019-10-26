@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jobmate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".changepasswordf"></activity>
+        <activity android:name=".changepasswordP" />
+        <activity android:name=".ProfileF" />
+        <activity android:name=".ProfileP" />
+        <activity android:name=".PostJob" />
+        <activity android:name=".ModifyAddedJobsPro" />
+        <activity android:name=".AddedJobsProvider" />
+        <activity android:name=".viewModifyAdded" />
+        <activity android:name=".search" />
+        <activity android:name=".profileFinder" />
+        <activity android:name=".profileProvider" />
+        <activity android:name=".registerProvider" />
+        <activity android:name=".registerFinder" />
+        <activity android:name=".loginFinder" />
+        <activity android:name=".loginProvider" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
